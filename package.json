@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap4",
+  "version": "1.0.0",
+  "description": "Repositorio para ensinamento do bootstrap 4 turma 07/10",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zerneri94/Bootstrap.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "flexbox",
+    "css"
+  ],
+  "author": "Isabel Zerneri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zerneri94/Bootstrap/issues"
+  },
+  "homepage": "https://github.com/Zerneri94/Bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2"
+  }
+}
