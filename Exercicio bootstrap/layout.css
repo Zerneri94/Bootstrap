@@ -1,0 +1,45 @@
+body {
+    background-color: red;
+}
+
+/*header*/
+header {
+    background-color: yellow;
+    height: 60px;
+}
+
+
+
+section {
+    background-color: #fff;
+}
+.box-chamada {
+    background-color: blue;
+}
+.box-saiba-mais {
+    background-color: skyblue;
+}
+footer {
+    background-color: grey;
+}
+
+.brand {
+    background-color: orange;
+}
+
+
+
+/* COMO BAIXAR O BOOTSTRAP
+1 - O projeto deve ser criado no git  e clonado
+
+2 - com o terminal na pasta do projeto rode o comando npm init 
+	//Inicializar o arquivo de configuração (package.json) com as informações
+  //Para quem não lembra segue link https://docs.npmjs.com/files/package.json
+  
+3 - Instalar o bootstrap, não esquecer de colocar o --save para salvar no package.json
+	npm install bootstrap@4.0.0-beta.2 --save
+  
+  4 - criar o .gitignore no terminal na pasta raiz do projeto 
+  	e colocar o node_modules dentro para o git ignorar
+  
+  5 - criar o arquivo html que deseja utilizar no projeto e importar o css do node_modules/bootstrap/dist/css/ */
