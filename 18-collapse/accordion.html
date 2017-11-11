@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Accordion</h1>
+
+        <div id="accordion" role="tablist">
+
+            <!-- item 1 -->
+            <div class="card">
+
+                <!-- elemento clicavel -->
+                <div class="card-header" id="cardOne">
+                    <h5 class="mb-0">
+                        <a href="#collapseOne" data-toggle="collapse" class="text-warning">Item 1</a>
+                    </h5>
+                </div>
+
+                <!-- elemento escondido  show - item um aberto automaticamente data-parent: mostra de qual grupo de collapse esse item pertence
+                usamos #quando o nome foi criado por nos, e sem # quando ja vem do bootstrap -->
+                <div class="collapse show" id="collapseOne" aria-labelledby="cardOne" data-parent="#accodion">
+                    <div class="card-body">
+                        O que devera aparecer quando clicar galera: Esse CARD SOU EU!
+                    </div>
+                </div>
+
+            </div> 
+            <!-- fim item 1 --> 
+
+
+             <!-- item 2-->
+             <div class="card">
+                    
+                 <!-- elemento clicavel -->
+                 <div class="card-header" id="cardTwo">
+                    <h5 class="mb-0">
+                        <a href="#collapseTwo" data-toggle="collapse" class="text-warning">Item 2</a>
+                    </h5>
+                </div>
+                    
+                <!-- elemento escondido -->               
+                <div class="collapse" id="collapseTwo" aria-labelledby="cardTwo" data-parent="#accodion">
+                    <div class="card-body">
+                         O que devera aparecer quando clicar galera: Esse CARD SOU EU!
+                    </div>
+                </div>
+                    
+            </div> 
+            <!-- fim item 2 --> 
+
+            <div class="card">
+                    
+                 <!-- elemento clicavel -->
+                 <div class="card-header" id="cardThree">
+                    <h5 class="mb-0">
+                        <a href="#collapseThree" data-toggle="collapse" class="text-warning">Item 3</a>
+                    </h5>
+                </div>
+                    
+                <!-- elemento escondido -->               
+                <div class="collapse" id="collapseThree" aria-labelledby="cardThree" data-parent="#accodion">
+                    <div class="card-body">
+                         O que devera aparecer quando clicar galera: Esse CARD SOU EU!
+                    </div>
+                </div>
+                    
+            </div> 
+        </div>
+    </div>
+
+
+    <!-- SCRIPTS -->
+    <!-- jquery -->
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

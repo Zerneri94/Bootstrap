@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Base</title>
+    <title>Collapse</title>
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
+
+    <div class="div container">
+        <h1>Collapse</h1>
+
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapseText" role="button">Collapse Link</a>
+            <button class="btn btn-warning" data-toggle="collapse" data-target="collapseText">Collapse Button</button>
+             <!-- a diferenca entre o link e o button no collapse -->
+        </p>
+
+        <!-- o que fica escondido e mostra ao clicar -->
+        <div class="collapse" id="collapseText">
+            <div class="card card-body">
+                lorem usuaiasdhsadkfbjaldsfhlkjasdfn djfkhsdfjadsfhadf hfdghadjfkghkdjfghdfsg
+            </div>
+        </div>
+
+    </div>
 
 
 

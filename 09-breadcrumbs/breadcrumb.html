@@ -4,29 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Base</title>
+    <title>Breadcrumb</title>
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-
-    <style>
-    
-        body {
-            background-color: #666;
-        }
-
-        .container {
-            background-color: #fff;
-        }
-    
-    </style>
-    
 </head>
 <body>
 
     <div class="container">
-        <h1>Container fixed</h1>
-        <p>
-            Largura 100%, ajustada conforme max-width nos breakpoints do bootstrap
-        </p>
+
+        <nav role="navigation">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Boostrap</a></li>
+                <li class="breadcrumb-item active">Breadcrumb</li>
+            </ol>
+        </nav>
+
     </div>
     
 </body>

@@ -8,25 +8,24 @@
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
 
     <style>
-    
-        body {
-            background-color: #666;
+        .brand {
+            background-color: grey;
         }
-
-        .container {
-            background-color: #fff;
+        .menu {
+            background-color: #ccc;
         }
-    
     </style>
-    
 </head>
 <body>
 
-    <div class="container">
-        <h1>Container fixed</h1>
-        <p>
-            Largura 100%, ajustada conforme max-width nos breakpoints do bootstrap
-        </p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="brand col">Logo</div>
+            <nav class="menu col">
+                <a href="">menu 1</a>
+                <a href="">menu 2</a>
+            </nav>
+        </div>
     </div>
     
 </body>

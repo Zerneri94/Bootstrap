@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nesting</title>
+    <title>Base</title>
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
 
     <style>
-        article{
+        
+        article {
             padding: 2rem;
         }
+
         article:first-child {
             background-color: salmon;
         }
+
         article:last-child {
             background-color: gold;
         }
@@ -22,64 +25,67 @@
             margin: 5px;
             background-color: #fff;
         }
+
     </style>
+
 </head>
-
 <body>
-    
+
     <div class="container">
-        <!-- inicio header -->
-        <header>
-                <div class="row">
-                    <div class="col">
-                        <h2>Logo</h2>
-                     </div>
-                     <div class="col">
-                         menu
-                    </div>
 
+       <!-- header -->
+       <header>
+            <div class="row">
+                <div class="col">
+                    <h1>logo</h1>
                 </div>
-        </header>  
-        <!-- fim header -->
-        
-         <!-- inicio da section -->
-             <section>
-                <div class="row">
+                <div class="col">
+                    menu
+                </div>
+            </div>
+       </header>
+       <!-- fim header -->
 
-                    <!-- inicio article -->
-                    <article class="col">
+        <!-- inicio section -->
+        <section>
+            <div class="row">
 
-                        <div class="row">
-                            <div class="col">
-                                <h3>Titulo</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur deleniti quo cumque mollitia voluptate sit temporibus nam voluptates, sequi nesciunt.</p>
-                             </div>
+                <!-- article -->
+                <article class="col">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Titulo</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, recusandae.</p>
                         </div>
                         <div class="col">
                             <h3>Titulo</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, optio!</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, recusandae.</p>
                         </div>
-                    </article>
-                    <!-- fim article -->
+                    </div>
 
-                    <article class="col">
+                </article>
+                <!-- fim article -->
 
-                            <div class="row">
-                                    <div class="col">
-                                        <h3>Titulo</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur deleniti quo cumque mollitia voluptate sit temporibus nam voluptates, sequi nesciunt.</p>
-                                    </div>
-                            </div>
-                            <div class="col">
-                                <h3>Titulo</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, optio!</p>
-                            </div>
-                     </article>
+                <!-- article -->
+                <article class="col">
 
-                </div>
-             </section>
+                    <div class="row">
+                        <div class="col">
+                            <h3>Titulo</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, recusandae.</p>
+                        </div>
+                        <div class="col">
+                            <h3>Titulo</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, recusandae.</p>
+                        </div>
+                    </div>
+                </article>
+                <!-- fim article -->
+            </div>
+        </section>
+        <!-- fim section -->
 
     </div>
-
+    
 </body>
 </html>
